@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Sidebar.module.scss";
-import App from "../../App";
-
 import Searchbar from '../../components/Searchbar';
-import Filters from '../../components/Filters';
+
 
 const Sidebar = (props) => {
 
@@ -24,9 +22,8 @@ const search = (searchValue) => {
 
   return (
     <>
-      <p className="center flow-text">Search for your bevvy!</p>
+      <p className={styles.searchGreet}>Search for your bevvy below!</p>
       <Searchbar search={search}/>
-      <Filters />
     </>
   );
 };

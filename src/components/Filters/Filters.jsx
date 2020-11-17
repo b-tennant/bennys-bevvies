@@ -1,12 +1,12 @@
-import React from "react";
-import styles from "./Filters.module.scss";
+// import React from "react";
+// import styles from "./Filters.module.scss";
 
-const Filters = () => {
-  return (
-    <>
-      <p>Filters works</p>
-    </>
-  );
-};
+// const Filters = () => {
+//   return (
+//     <>
+//       {/* <p>Filters works</p> */}
+//     </>
+//   );
+// };
 
-export default Filters;
+// export default Filters;

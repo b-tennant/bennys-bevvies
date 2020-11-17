@@ -1,11 +1,11 @@
 import React from "react";
-import styles from "./Searchbar.module.scss";
+import Styles from "./Searchbar.module.scss";
 
 const Searchbar = ({search}) => {
   return (
-    <div className="container">
+    <div className={Styles.searchBox}>
       {/* <p>Search for bevvies</p> */}
-      <input type="text" placeholder="enter bevvy here!" onInput={(e) => search(e.target.value)}/>
+      <input className={Styles.placeholder} type="text" placeholder="Enter a Brewdog bevvy here!" onInput={(e) => search(e.target.value)}/>
     </div>
   );
 };

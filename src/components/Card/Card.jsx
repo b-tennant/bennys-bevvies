@@ -9,7 +9,7 @@ const Card = ({bevvie}) => {
       <div className={styles.polar}>
         <img src={image_url} alt="some bevvie"/>
         <div className={styles.iceberg}>
-          <h3>{name}</h3>
+          <h3 className={styles.title}>{name}</h3>
           <p className={styles.iglu}>{description}</p>
         </div>
       </div>

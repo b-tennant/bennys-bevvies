@@ -1,3 +1,3 @@
-import FilterIcon from "./FilterIcon";
+// import FilterIcon from "./FilterIcon";
 
-export default FilterIcon;
+// export default FilterIcon;

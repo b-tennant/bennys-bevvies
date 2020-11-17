@@ -1,12 +1,12 @@
-import React from "react";
-import styles from "./FilterIcon.module.scss";
+// import React from "react";
+// import styles from "./FilterIcon.module.scss";
 
-const FilterIcon = () => {
-  return (
-    <>
-      <p>FilterIcon works</p>
-    </>
-  );
-};
+// const FilterIcon = () => {
+//   return (
+//     <>
+//       <p>FilterIcon works</p>
+//     </>
+//   );
+// };
 
-export default FilterIcon;
+// export default FilterIcon;
